@@ -5,7 +5,7 @@ const TodoList = () => {
   return (
     <div className="TodoList">
       <h4>To-do List</h4>
-      <input className="searchbar" />
+      <input className="searchbar" placeholder="Search" />
       <div className="list_wrapper">
         <TodoItem />
         <TodoItem />
